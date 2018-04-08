@@ -1,0 +1,42 @@
+{
+	"commander.js": {
+		"name": "Commander",
+		"author": "Toshimonster",
+		"version": "0.0.1",
+		"description": "Basic Framework for managing commands",
+		"requires": [],
+		"supports": ["help.js"]
+	},
+	"example.js": {
+		"name": "Example",
+		"author": "Toshimonster",
+		"version": "0.0.1",
+		"description": "A basic module showing how modules work",
+		"requires": [],
+		"supports": ["help.js"]
+	},
+	"help.js": {
+		"name": "Help",
+		"author": "Toshimonster",
+		"version": "0.0.1",
+		"description": "A module providing the `help` command.",
+		"requires": [],
+		"supports": []
+	},
+	"logger.js": {
+		"name": "Logger",
+		"author": "Toshimonster",
+		"version": "0.0.1",
+		"description": "A module providing a log channel and a automod.",
+		"requires": [],
+		"supports": []
+	},
+	"react2role.js": {
+		"name": "React2Roler",
+		"author": "Toshimonster",
+		"version": "0.0.1",
+		"description": "A module providing support for reaction based role giving.",
+		"requires": [],
+		"supports": ["help.js"]
+	}
+}
